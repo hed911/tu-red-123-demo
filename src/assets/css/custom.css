@@ -1,0 +1,49 @@
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 10px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #9e9e9e!important;
+    border-radius: 10px;
+  }/* Write your custom CSS here */
+
+  .list-group-item.active {
+    z-index: 2;
+    color: #ffffff;
+    background-color: #f03430 !important;
+    border-radius: 2rem;
+    border-color: #fff !important;
+}
+
+  .list-group-item {
+    border-color: #fff !important;
+}
+
+ .list-group-item.active strong {
+    color: #ffffff !important;
+ }
+
+ .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-image: linear-gradient(to right top, #ff0a2d, #f90e27, #f21021, #ec131b, #e51515);
+}
+
+.btn-danger {
+    background-image: linear-gradient(to right top, #ff0a2d, #f90e27, #f21021, #ec131b, #e51515);
+}
+
+.btn-success {
+    background-image: linear-gradient(to right top, #15e74c, #00e26f, #00db8a, #00d49e, #16ccac);
+    border-color: #15E74C;
+}
+
+.dropleft .dropdown-toggle::before {
+    display: none;
+}
+
+.secondary-sidebar-menu ul li.active-page>a, .secondary-sidebar-menu ul li.active-page>a i, .secondary-sidebar-menu ul li.active-page>a:hover, .secondary-sidebar-menu ul li.active-page>a:hover i, .secondary-sidebar-menu ul li.open>a, .secondary-sidebar-menu ul li.open>a i, .secondary-sidebar-menu ul li.open>a:hover, .secondary-sidebar-menu ul li.open>a:hover i {
+    color: #06d03d!important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+}
